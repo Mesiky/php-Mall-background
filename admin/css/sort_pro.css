@@ -1,0 +1,40 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+table,tr,td{
+		border: 1px solid #ccc;
+}
+#tab{
+	width: 90%;
+	margin:0 auto;
+}
+#tab .pic{
+	text-align: center;
+}
+#tab .pic_box{
+	padding: 10px 10px;
+	border:1px solid #f0f0f0;
+	border-radius: 5px;
+	display: inline-block;
+	margin:0 10px;
+}
+#tab .pic_box .rules{
+	display: block;
+	margin-top: 1px;
+	padding: 3px 7px;
+	border: 1px solid #f60;
+	border-radius: 4px;
+}
+#tab a{
+	text-decoration: none;
+}
+#tab a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#tab .sort_content{
+	resize: none;
+	border:none;
+	outline: none;
+}

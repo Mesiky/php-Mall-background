@@ -1,0 +1,101 @@
+input,label{
+	padding:0;
+	margin:0;
+}
+.tab{
+	width: 70%;
+	height: auto;
+	margin:25px auto;
+	border: 1px solid #ccc;
+}
+.add_a{
+	padding: 7px 10px;
+	display: inline-block;
+	background: #c2c2c2;
+	margin-left: 30px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+.tab tr{
+	height: 50px;
+	border: 1px solid #ccc;
+}
+.tab td{
+	padding: 6px;
+	border: 1px solid #ccc;
+}
+.tab .td{
+	text-align: center;
+	font-weight: bold;
+}
+.tab .td a{
+	display: inline-block;
+	padding: 4px 8px;
+	background: #eee;
+	border-radius: 5px;
+	font-size: 14px;
+	text-decoration: none;
+	margin-right: 5px;
+	color: #000;
+}
+.tab .addadmin,.tab .changeadmin{
+	width: 40%;
+}
+#page_box{
+	width: 50%;
+	height: auto;
+	margin:0 auto;
+	text-align: center;
+}
+.page{
+	display: inline-block;
+	border:1px solid #ccc;
+	margin-right: 7px;
+	width: auto;
+	height: 35px;
+	line-height: 35px;
+	padding: 0  10px;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+
+}
+.page a{
+	text-decoration: none;
+}
+.page_choose{
+	color: #000;
+}
+
+/*listpro*/
+#sea_menu{
+	display: inline-block;
+	float: right;
+	margin-right: 5%;
+}
+#sea_menu span{
+	font-size: 14px;
+	
+}
+#sea_menu .sort_select,#sea_menu .time_select,#sea_menu .search{
+	display: inline-block;
+	margin-left: 10px;
+}
+.search .sea_label{
+	display: inline-block;
+	border:1px solid #ccc;
+}
+.search .sea_label .sea_txt{
+	border:none;
+	outline: none;
+	font-size: 12px;
+	padding: 3px 4px;
+}
+.search .sea_label .sea_btn{
+	background: #f0f0f0;
+	border:1px solid #eee;
+	outline: none;
+	cursor: pointer;
+}

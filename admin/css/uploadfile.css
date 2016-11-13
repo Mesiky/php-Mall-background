@@ -1,0 +1,46 @@
+#selectFileBtn{
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	background:#f3f3f3;
+	border:1px solid #EBEBEB;
+	font-size: 14px;
+	text-decoration: none;
+	color:#999999;
+}
+#selectFileBtn em{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	background: url(../images/icon.png);
+	vertical-align: middle;
+}
+#selectFileBtn strong{
+	vertical-align: middle;
+}
+#attachList {
+	margin-top: 2px;
+}
+#attachList .attachItem{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	position: relative;
+	background: #f0f0f0;
+	border:1px solid #999999;
+}
+#attachList .attachItem .left,#attachItem .right{
+	display: inline-block;
+}
+#attachList .attachItem .close{
+	width: 14px;
+	height: 14px;
+	background: url(../images/close.png) no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}

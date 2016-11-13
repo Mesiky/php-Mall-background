@@ -1,0 +1,275 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1477826754_2349694.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1477826754_2349694.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1477826754_2349694.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1477826754_2349694.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1477826754_2349694.svg#iconfont') format('svg'); /* iOS 4.1- */
+}                   
+body{
+	margin:0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height: 80px;
+	background: #2778ff;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+#header .center{
+	width: 1190px;
+	height: 80px;
+	margin: 0 auto;
+}
+#header .center .logo{
+	width: 170px;
+	height: 80px;
+	background: url(../images/logo.png);
+	float: left;
+}
+#header .center .title{
+	height: 80px;
+	line-height: 80px;
+	float: right;
+	color: #fff;
+	font-size: 25px;
+	margin-right: 50px;
+}
+#login{
+	width: 30%;
+	height: 440px;
+	border:1px solid #ccc;
+	margin:17px auto;
+}
+#login .tit{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	color:#2778ff;
+
+}
+#login .f1{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+#login .f1 .user{
+	width: 70%;
+	height: 30px;
+	border:1px solid #7cacfd;
+	border-radius: 4px;
+	margin:20px auto 30px auto;
+	position: relative;
+}
+#login .f1 .ur_code{
+	height: 28px;
+	border:none;
+	margin:-10px auto 10px auto;
+}
+#login .f1 .ur_check{
+	border:none;
+	margin:15px auto 10px auto;
+}
+#login .f1 .code{
+	width: 100%;
+	position: relative;
+}
+#login .f1 .code:after{
+	content: ';';
+	overflow: hidden;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+#login .f1 .code .codeipt{
+	float: left;
+	width: 68%;
+}
+#login .f1 .code .codeimg{
+	float: right;
+	cursor: pointer;
+}
+#login .f1 .code .check_icon{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	right: -30px;
+}
+#login .f1 label{
+	color: #666;
+	position: absolute;
+	left: 0;
+	top: -22px;
+}
+#login .f1 .code .iconfont{
+	font-family:"iconfont";
+	font-size:18px;
+	color: red;
+	font-style:normal;
+}
+
+#login .f1 .icon{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../images/bg-input.png);
+}
+#login .f1 .iuser{
+	background-position: top left;
+}
+#login .f1 .ipwd{
+	background-position: bottom; left;
+}
+#login .f1 .icode{
+	background: url(../images/icode.PNG) no-repeat;
+	filter: alpha(opacity=50);
+	opacity: 0.5
+
+}
+#login .f1  .code1{
+	vertical-align: top;
+	margin: 2px 0 2px 0;
+	border:none;
+	outline: none;
+}
+#login .f1 .txt,#login .f1 .pwd,#login .f1 .pwd_te,#login .f1 .email{
+	vertical-align: top;
+	margin: 6px 0 2px 0;
+	width: 80%;
+	border:none;
+	outline: none;
+
+}
+#login .f1 .btn{
+	width: 80%;
+	height: 33px;
+}
+#login .f1 .checkbox{
+	vertical-align: middle;
+}
+#login .f1 em{
+	font-style: normal;
+	font-size: 12px;
+	vertical-align: middle;
+}
+#login .f1 .user_pmt{
+	width: 152px;
+	line-height: 16px;
+	padding: 6px 10px 6px 10px;
+	text-indent: 16px;
+	font-size: 12px;
+	color: #2496d8;
+	background: #e0f2ff;
+	border:solid 1px #8dcffe;
+	border-radius: 3px;
+	position: absolute;
+	right: -190px;
+	top: -7px;
+	display: none;
+
+}
+#login .f1 .pmt_ico{
+	display: inline-block;
+	border:6px dashed transparent;
+	border-right-color:#e0f2ff;
+	border-right-style:solid;
+	position: absolute;
+	left: -12px;
+	top: 14px;
+}
+#login .f1 .pmt_ico_i{
+	display: inline-block;
+	border:7px dashed transparent;
+	border-right-color:#8dcffe;
+	border-right-style:solid;
+	position: absolute;
+	left: -14px;
+	top: 13px;	
+}
+#login .f1  .pmt_node{
+	display: block;
+	position: absolute;
+	left: -6px;
+	top: 6px;
+	font-family: "iconfont";
+	font-size: 14px;
+	color: #2496d8;
+}
+
+#login .f1 .user_pmt,#login .f1 .user_error strong{
+	font-weight: normal;
+}
+#login .f1 .user_error{
+	width: 152px;
+	line-height: 16px;
+	padding: 6px 10px 6px 10px;
+	font-size: 12px;
+	color: #eb712a;
+	background: #fef3cd;
+	border:solid 1px #eb712a;
+	border-radius: 3px;
+	position: absolute;
+	right: -190px;
+	top: -7px;
+	text-indent: 16px;
+	display: none;
+
+}
+#login .f1 .error_ico{
+	display: inline-block;
+	border:6px dashed transparent;
+	border-right-color:#fef3cd;
+	border-right-style:solid;
+	position: absolute;
+	left: -12px;
+	top: 14px;
+}
+#login .f1 .error_ico_i{
+	display: inline-block;
+	border:7px dashed transparent;
+	border-right-color:#eb712a;
+	border-right-style:solid;
+	position: absolute;
+	left: -14px;
+	top: 13px;	
+}
+#login .f1  .error_node{
+	display: block;
+	position: absolute;
+	left: -6px;
+	top: 6px;
+	font-family: "iconfont";
+	font-size: 14px;
+	color:#eb712a;
+}
+#popup-captcha{
+	margin: 15px 0 10px 0;
+}
+
+#footer{
+	width: 100%;
+	height: 88px;
+	background: #ccc;
+	text-align: center;
+	font-size: 16px;
+	position: absolute;
+	bottom: 0px;
+}
+#footer .foot_t{
+	display: inline-block;
+	width: auto;
+	margin: 20px 0 10px 0;
+}
+#footer .information{
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+}

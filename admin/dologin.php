@@ -1,0 +1,13 @@
+<?php
+/**
+*中转判断，调用方法，链接从这里调用
+*/
+require_once('../include.php');
+$user=@$_POST['txt'];
+$pwd=@md5($_POST['pwd']);
+$ipt=@$_POST['checkbox'];
+$ver=@$_SESSION['code'];
+if($_GET['act']=='login'){
+	checkadmin($ver,$user,$pwd,$ipt);
+}
+?>

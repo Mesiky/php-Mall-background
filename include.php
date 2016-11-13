@@ -1,0 +1,17 @@
+<?php
+$path=dirname(__FILE__);
+set_include_path(".".PATH_SEPARATOR.$path."\lib".PATH_SEPARATOR.$path."\font".PATH_SEPARATOR.$path.'\core'.PATH_SEPARATOR.$path.'\configs');
+session_start();
+require_once('image_func.php');
+require_once('mysql_func.php');
+require_once('admin.inc.php');
+require_once('config.php');
+require_once('page_func.php');
+require_once('cate.inc.php');
+require_once('upload_func.php');
+require_once('common.php');
+require_once('pro.inc.php');
+require_once('sort_img.inc.php');
+require_once('register.inc.php');
+require_once('user.inc.php');
+?>
